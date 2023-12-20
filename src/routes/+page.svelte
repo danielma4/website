@@ -144,15 +144,27 @@
         height: 100px;
     }
 
-    @media screen and (max-width: 768px) {
-        .common-outer-style {
-            flex-direction: column;
-            align-items: center;
-        }
+    @media screen and (max-width: 1200px) {
         .common-inner-style {
-            width: 90%;
+            padding: 10px;
+            width: 60%;
+        }
+        .dan-pic img, .recent-work-image img {
+            max-width: 50%; /* Decrease image size */
+            height: auto;
+        }
+        .about-me-card, .recent-work-card {
+            margin: 20px auto;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        .common-inner-style p {
+            font-size: 15px;
+            padding: 10px 0;
+        }
+        .list li {
+            font-size: 15px;
         }
     }
 </style>
-
-<!--Add interactability? TS svelte script tag-->
