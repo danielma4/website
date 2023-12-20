@@ -147,7 +147,8 @@
     @media screen and (max-width: 1200px) {
         .common-inner-style {
             padding: 10px;
-            width: 60%;
+            width: 70%;
+            line-height: 1;
         }
         .dan-pic img, .recent-work-image img {
             max-width: 40%;
@@ -157,7 +158,7 @@
             margin: 20px auto;
         }
         h1 {
-            font-size: 25px;
+            font-size: 20px;
         }
         .common-inner-style p {
             font-size: 12px;
@@ -169,7 +170,8 @@
     @media screen and (max-width: 450px) {
         .common-inner-style {
             padding: 10px;
-            width: 80%;
+            width: 85%;
+            line-height: 1;
         }
         .dan-pic img, .recent-work-image img {
             max-width: 50%;
