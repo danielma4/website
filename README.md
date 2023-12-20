@@ -1,4 +1,4 @@
-[Website](madaniel.vercel.app)
+madaniel.vercel.app
 
 # create-svelte
 
