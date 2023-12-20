@@ -150,7 +150,7 @@
             width: 60%;
         }
         .dan-pic img, .recent-work-image img {
-            max-width: 50%; /* Decrease image size */
+            max-width: 40%;
             height: auto;
         }
         .about-me-card, .recent-work-card {
@@ -160,11 +160,33 @@
             font-size: 25px;
         }
         .common-inner-style p {
-            font-size: 15px;
+            font-size: 12px;
+        }
+        .list li {
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        .common-inner-style {
+            padding: 10px;
+            width: 80%;
+        }
+        .dan-pic img, .recent-work-image img {
+            max-width: 50%;
+            height: auto;
+        }
+        .about-me-card, .recent-work-card {
+            margin: 20px auto;
+        }
+        h1 {
+            font-size: medium;
+        }
+        .common-inner-style p {
+            font-size: small;
             padding: 10px 0;
         }
         .list li {
-            font-size: 15px;
+            font-size: small;
         }
     }
 </style>
