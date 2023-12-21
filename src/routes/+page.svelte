@@ -157,7 +157,7 @@
         .about-me-card, .recent-work-card {
             margin: 20px auto;
         }
-        .recent-work-text ul {
+        .recent-work-text h1, .recent-work-text ul, .recent-work-text p {
             margin: 5px;
         }
         h1 {
@@ -185,7 +185,7 @@
             margin: 20px auto;
         }
         .recent-work-text ul {
-            margin: 5px;
+            margin-top: 5px;
         }
         h1 {
             font-size: medium;
