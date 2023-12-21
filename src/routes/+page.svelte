@@ -157,6 +157,9 @@
         .about-me-card, .recent-work-card {
             margin: 20px auto;
         }
+        .recent-work-text ul {
+            margin: 5px;
+        }
         h1 {
             font-size: 20px;
         }
@@ -167,6 +170,7 @@
             font-size: 12px;
         }
     }
+
     @media screen and (max-width: 450px) {
         .common-inner-style {
             padding: 10px;
@@ -179,6 +183,9 @@
         }
         .about-me-card, .recent-work-card {
             margin: 20px auto;
+        }
+        .recent-work-text ul {
+            margin: 5px;
         }
         h1 {
             font-size: medium;
