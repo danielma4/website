@@ -36,7 +36,6 @@
             <p>I recently finished my first semester in college, where I completed a plethora of projects, including: </p>
                 <ul class="list">
                     <li>A binary square game in Python</li>
-                    <li>A fun visual pipe game in Racket</li>
                     <li>A Leetcode to VSCode port with Typescript</li>
                     <li>and many more!</li>
                 </ul>
