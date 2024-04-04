@@ -1,5 +1,7 @@
 madaniel.vercel.app
 
+work in progress, not a finished product and will work on in the future
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
